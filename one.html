@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <meta charset=”utf-8”>
+        <link rel="stylesheet" href="webstyle.css">
+        <link rel="icon" type="image/png" href="img/king.svg">
+        <title>Chess Principles</title>
+        <meta name="description" content="A website to outline common rules of thumb used by chess players to evaluate positions.">
+        <meta name="keywords" content="chess, checkmate, principles">
+    </head>
+    <body>
+        <div class="headImageContainer">
+            <img class=headImage src="img/chessHead.jpg" alt="chess header">
+        </div>
+        <ul class="nav">
+            <li class="navItem"><a href="home.html">Home</a></li>
+            <li class="navItem"><a class="here" href="one.html">Piece Value</a></li>
+            <li class="navItem"><a href="two.html">Opening</a></li>
+            <li class="navItem"><a href="three.html">Middlegame</a></li>
+            <li class="navItem"><a href="four.html">Endgame</a></li>
+            <li class="navItem"><a href="five.html">Contact</a></li>
+        </ul>
+        <div class="mainPanel">
+            <h1 class="center">
+                Relative Piece Values
+            </h1>
+            <p>
+                Piece values help you quickly evaluate if a trade is good, neutral or bad. As usual, these rules can be broken if the position allows it, and at the end of the game, all that matters is checkmate.
+            </p>	
+            
+            <div class="internalItemPanel">
+                <div class="pieceValueImg">
+                    <img class="fullWidth" src="img/pawn.svg" alt="white chess pawn">
+                </div>
+                <div class="pieceValueText">
+                    <h1 class="center bold">
+                        Value: 1
+                    </h1>
+                    <h1 class="center">
+                        Pawn
+                    </h1>
+                    <p>
+                        The pawn is the least mobile piece. This makes it the weakest, so we give it a value of 1 as a baseline. The true strength of pawns is seen when together in horizontal groups.
+                    </p>
+                </div>
+            </div>
+
+            <div class="internalItemPanel">
+                <div class="pieceValueImg">
+                    <img class="fullWidth" src="img/knight.svg" alt="white chess knight">
+                    <img class="fullWidth" src="img/bishop.svg" alt="white chess bishop">
+                </div>
+                <div class="pieceValueText">
+                    <h1 class="center bold">
+                        Value: 3
+                    </h1>
+                    <h1 class="center">
+                        Rook and Bishop
+                    </h1>
+                    <p>
+                        These are the so called minor pieces. You cannot checkmate the enemy king with just one of them on an open board. These pieces work well in pairs. Knights can be slow but are difficult to block. Bishops are be blind to the color complex they don't start on but have good range.
+                    </p>
+                </div>
+            </div>
+
+            <div class="internalItemPanel">
+                <div class="pieceValueImg">
+                    <img class="fullWidth" src="img/rook.svg" alt="white chess rook">
+                </div>
+                <div class="pieceValueText">
+                    <h1 class="center bold">
+                        Value: 5
+                    </h1>
+                    <h1 class="center">
+                        Rook
+                    </h1>
+                    <p>
+                        The rook is the first major piece. It can checkmate the enemy king with just one of them on an open board. Its strong in pairs and in the endgame, and can reach any square on an open board in two moves.
+                    </p>
+                </div>
+            </div>
+
+            <div class="internalItemPanel">
+                <div class="pieceValueImg">
+                    <img class="fullWidth" src="img/queen.svg" alt="white chess queen">
+                </div>
+                <div class="pieceValueText">
+                    <h1 class="center bold">
+                        Value: 9
+                    </h1>
+                    <h1 class="center">
+                        Queen
+                    </h1>
+                    <p>
+                        The queen is the second major piece and is highly manuverable. It combines the powers of the bishop and rook but, as its value suggests is worth more than the sum of its parts. A fair trade for a rook and two minor pieces.
+                    </p>
+                </div>
+            </div>
+
+            <div class="internalItemPanel">
+                <div class="pieceValueImg">
+                    <img class="fullWidth" src="img/king.svg" alt="white chess king">
+                </div>
+                <div class="pieceValueText">
+                    <h1 class="center bold">
+                        Value: <span class='infinity'>&infin;</span>
+                    </h1>
+                    <h1 class="center">
+                        King
+                    </h1>
+                    <p>
+                        If you lose the king, you lose the game. Therefore, the king is infinitely valuble. Sacrifice everything if you must, to get to the enemy king.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

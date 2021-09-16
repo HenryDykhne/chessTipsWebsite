@@ -1,0 +1,166 @@
+body {
+    background: #4A4D4E;
+    color: #282a2b;
+    font-family: Arial, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282a2b;
+}
+
+.navItem {
+    float: left;
+    font-weight: bold;
+}
+
+.navItem a, .navItem a:visited, .buttonType a, .buttonType:visited {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #C5D0D4;
+}
+  
+.navItem a:hover, .buttonType:hover {
+    background-color: #1A1919;
+}
+
+.here, .here:hover {
+    background-color: #539438;
+}
+
+.buttonType {
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px;
+    overflow: hidden;
+    background-color: #484848;
+    color: #C5D0D4;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+.name {
+    width:300px;
+}
+
+textarea {
+    width: 70%;
+    padding: 12px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+.mainPanel {
+    width: 60%;
+    margin: auto;
+    background-color: #C5D0D4;
+    padding:10px;
+    padding-left:50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    margin-bottom:30px;
+    margin-top:50px;
+    padding-bottom: 30px;
+}
+
+p {
+    text-align: left;
+    font-size: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+#king {
+    margin: auto;
+    display: block;
+    width: 20%;
+    margin-bottom:75px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fullWidth {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.buttonPair {
+    display: grid;
+    grid-template-columns: 50% 50%; /*Source: https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid*/
+}
+
+.internalItemPanel {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    background-color: #539438;
+}
+
+.pieceValueImg {
+    padding-top:10px;
+    padding-bottom:10px;
+    border-right: #1A1919 solid 6px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    flex-direction: column;
+}
+
+.pieceValueText {
+    color: #C5D0D4;
+    padding: 30px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+.infinity {
+    font-size: 60px;
+    transform: translateY(10px) !important;
+    display:inline-block;
+}
+
+.boardImage {
+    border-radius: 10px;
+    margin:10px;
+    width: 90%;
+}
+
+.headImage {
+    width:100%;
+    transform: translate(0,-500px) !important;
+    display:inline-block;
+
+}
+
+.headImageContainer {
+    overflow: hidden;
+    height:200px;
+}
+
+#send {
+    transform: translate(20px,-10px) !important;
+    display:inline-block;
+}
